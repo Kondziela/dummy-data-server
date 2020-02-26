@@ -26,4 +26,5 @@ How to run server:
      }
    }
    ```
-   - After start of server the generated dummy data will be hosted under URL: `FILENAME/COLLECTION_NAME`
+  - Generate dummy data with command `npm run gen-dummy`
+  - After start of server the generated dummy data will be hosted under URL: `FILENAME/COLLECTION_NAME`
