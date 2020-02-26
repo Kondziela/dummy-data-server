@@ -1,0 +1,348 @@
+{
+  "userInfo":{
+    "label":"User Info",
+    "id":{
+      "type":"text",
+      "label":"ID",
+      "value":"12414"
+    },
+    "hasFirstName":{
+      "type":"text",
+      "label":"First Name",
+      "value":"Alexander"
+    },
+    "hasFamilyName":{
+      "type":"text",
+      "label":"Family Name",
+      "value":"Lang"
+    },
+    "annualPremium":{
+      "type":"currency",
+      "label":"Annual Premium",
+      "value":1520
+    },
+    "creditRating":{
+      "type":"number",
+      "label":"Credit Rating",
+      "value":4
+    },
+    "customerLoyalty":{
+      "type":"text",
+      "label":"Customer Loyalty",
+      "value":"5 Years"
+    },
+    "birthDate":{
+      "type":"date",
+      "label":"Birth Date",
+      "value":"1990-12-01"
+    },
+    "email":{
+      "type":"email",
+      "label":"Email",
+      "value":"alexlang12@gmail.com"
+    },
+    "mobileNumber":{
+      "type":"text",
+      "label":"Mobile Phone",
+      "value":"+49344554238"
+    },
+    "phoneNumber":{
+      "type":"text",
+      "label":"Phone Number",
+      "value":""
+    },
+    "birthTown":{
+      "type":"text",
+      "label":"Birth Town",
+      "value":"München"
+    },
+    "ownsProperty":{
+      "type":"number",
+      "label":"Properties",
+      "value":1
+    },
+    "sentimentScore":{
+      "type":"score",
+      "label":"Sentiment Score",
+      "value":0.7
+    },
+    "fraudScore":{
+      "type":"score",
+      "label":"Fraud Score",
+      "value":0.11
+    },
+    "occupation":{
+      "type":"text",
+      "label":"occupation",
+      "value":"Student"
+    },
+    "socialNetworks":{
+      "type":"socialNetworks",
+      "label":"social networks",
+      "value":"this.socialNetworks"
+    },
+    "address":{
+      "type":"text",
+      "label":"Address",
+      "value":"Kapuziner Str. 35"
+    },
+    "gender":{
+      "type":"text",
+      "label":"Gender",
+      "value":"M"
+    },
+    "city":{
+      "type":"text",
+      "label":"City",
+      "value":"Salzburg"
+    }
+  },
+  "lifeEvents":{
+    "type":"timeline",
+    "label":"Life Events",
+    "value":[
+      {
+        "date":"1990-12-01",
+        "title":"Birth",
+        "description":"München, Bavaria",
+        "type":"birth"
+      },
+      {
+        "date":"2009-09-13",
+        "title":"Starts College",
+        "description":"Dortmund University",
+        "type":"studies"
+      },
+      {
+        "date":"2011-02-22",
+        "title":"Starts Part Time Job",
+        "description":"Penny Supermarkt, Dortmund",
+        "type":"work"
+      },
+      {
+        "date":"2013-06-27",
+        "title":"Graduates College",
+        "description":"Dortmund University",
+        "type":"studies"
+      },
+      {
+        "date":"2014-01-02",
+        "title":"Starts Job",
+        "description":"Microsoft Austria",
+        "type":"work"
+      },
+      {
+        "date":"2018-07-28",
+        "title":"Marriage",
+        "description":"Innsbruck, Austria",
+        "type":"marriage"
+      },
+      {
+        "date":"2019-12-15",
+        "title":"Birth of First Child",
+        "description":"Salzburg, Austria",
+        "type":"birth"
+      }
+    ]
+  },
+  "insights":{
+    "lineChart":{
+      "type":"lineChart",
+      "label":"personal lineChart",
+      "labelx":[
+        "Healthcare",
+        "Travel",
+        "Accident",
+        "Roof",
+        "Household"
+      ],
+      "valuey":[
+        0.8,
+        0.5,
+        0.2,
+        -0.4,
+        -0.6
+      ]
+    },
+    "radarChart":{
+      "type":"radarChart",
+      "label":"personal radarChart",
+      "labelx":[
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "valuey":[
+        120,
+        130,
+        180,
+        70,
+        34
+      ],
+      "valuez":[
+        90,
+        150,
+        200,
+        45,
+        180
+      ]
+    },
+    "stackedBarChart":{
+      "type":"stackedBarChart",
+      "label":"personal stackedBarChart",
+      "labelx":[
+        "Red",
+        "Blue",
+        "Yellow",
+        "Green",
+        "Purple",
+        "Orange"
+      ],
+      "valuey":[
+        100,
+        109,
+        30,
+        50,
+        20,
+        30
+      ],
+      "valuez":[
+        280,
+        480,
+        400,
+        190,
+        960,
+        270
+      ]
+    },
+    "annualPremium":{
+      "type":"lineChart",
+      "label":"Annual Premium",
+      "labelx":[
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "valuey":[
+        650,
+        666,
+        900,
+        870,
+        1025,
+        1005,
+        1025,
+        1000,
+        1500,
+        1600
+      ]
+    },
+    "lineChart2":{
+      "type":"lineChart",
+      "label":"personal lineChart2",
+      "labelx":[
+        "Healthcare",
+        "Travel",
+        "Accident",
+        "Roof",
+        "Household"
+      ],
+      "valuey":[
+        0.8,
+        0.5,
+        0.2,
+        -0.4,
+        -0.6
+      ]
+    },
+    "radarChart2":{
+      "type":"radarChart",
+      "label":"personal radarChart2",
+      "labelx":[
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "valuey":[
+        120,
+        130,
+        180,
+        70,
+        34
+      ],
+      "valuez":[
+        90,
+        150,
+        200,
+        45,
+        180
+      ]
+    },
+    "stackedBarChart2":{
+      "type":"stackedBarChart",
+      "label":"personal stackedBarChart2",
+      "labelx":[
+        "Red",
+        "Blue",
+        "Yellow",
+        "Green",
+        "Purple",
+        "Orange"
+      ],
+      "valuey":[
+        100,
+        109,
+        30,
+        50,
+        20,
+        30
+      ],
+      "valuez":[
+        280,
+        480,
+        400,
+        190,
+        960,
+        270
+      ]
+    },
+    "annualPremium2":{
+      "type":"lineChart",
+      "label":"Annual Premium2",
+      "labelx":[
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "valuey":[
+        650,
+        666,
+        900,
+        870,
+        1025,
+        1005,
+        1025,
+        1000,
+        1500,
+        1600
+      ]
+    }
+  }
+}

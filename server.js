@@ -8,17 +8,23 @@ const middlewares = jsonServer.defaults()
 server.use(middlewares)
 // use body parser for POST, PUT and DELETE
 server.use(jsonServer.bodyParser)
-// example restpoint
-server.get('/echo', (req, res) => {
-  res.jsonp({
-    data: [{
-      name: "I\' dummy"
-    },
-      {
-        name: "Delete me"
-      }]
-  })
+
+// code to host whole file of data
+server.get('*', (req, res, next) => {
+  if (req.originalUrl.split('/').length < 3) {
+    fs.readFile(path.join('dummy_data', 'data', `${req.originalUrl.split('/')[1]}.json`), (err, data) => {
+      if (!err) {
+        res.jsonp(JSON.parse(data.toString()));
+      } else {
+        console.error(err);
+      }
+    });
+  } else {
+    next();
+  }
 })
+// OUR DUMMY RESTPOINT (URL for respoint contains below URL and name of object from JSON file)
+server.use('/personal', jsonServer.router('dummy_data/data/personal.json'))
 
 // routing for dummy data from JSON files
 fs.readFile(path.join('dummy_data', 'restpoint_def.json'), (err, data) => {
