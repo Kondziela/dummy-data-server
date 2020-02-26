@@ -1,0 +1,32 @@
+[
+  {
+    "fileName": "users.json",
+    "definition": {
+      "users": {
+        "fields": {
+          "id": "index",
+          "username": "username",
+          "name": "lastName",
+          "address": "streetAddress"
+        },
+        "rows": 10
+      }
+    }
+  },
+  {
+    "fileName": "companies.json",
+    "definition": {
+      "companies": {
+        "fields": {
+          "id": "index",
+          "name": "business",
+          "address": "streetAddress",
+          "country": "country",
+          "city": "city",
+          "email": "email"
+        },
+        "rows": 10
+      }
+    }
+  }
+]

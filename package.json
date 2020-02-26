@@ -1,0 +1,19 @@
+{
+  "name": "dummy-server",
+  "version": "1.0.0",
+  "description": "Dummy server for Data Super Market",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "gen-dummy": "node dummy_data\\generate_dummy.js"
+  },
+  "author": "AKO",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "json-server": "^0.16.1",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7",
+    "promise": "^8.0.3"
+  }
+}
