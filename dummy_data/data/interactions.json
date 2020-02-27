@@ -1,0 +1,238 @@
+{
+  "interactionsTimeline": {
+    "type": "timeline",
+    "label": "Interactions Timeline",
+    "value": [
+      {
+        "date": "2015-07-12",
+        "title": "Conversation with chatbot",
+        "description": "www.allianz.com",
+        "type": "web"
+      },
+      {
+        "date": "2016-11-29",
+        "title": "Contacted Insurance customer service",
+        "description": "customercare@allianz.com",
+        "type": "mail"
+      },
+      {
+        "date": "2016-12-03",
+        "title": "Contacted claims customer service",
+        "description": "claimscc@allianz.com",
+        "type": "mail"
+      },
+      {
+        "date": "2017-10-07",
+        "title": "Called Emergency Helpline",
+        "description": "Flood in Apartment",
+        "type": "phone"
+      },
+      {
+        "date": "2019-01-01",
+        "title": "Conversation with chatbot",
+        "description": "www.allianz.com",
+        "type": "web"
+      },
+      {
+        "date": "2019-03-22",
+        "title": "Called Customer Service line",
+        "description": "+49 3443 2243660",
+        "type": "phone"
+      },
+      {
+        "date": "2019-08-01",
+        "title": "Called Emergency Helpline",
+        "description": "Smoke in kitchen",
+        "type": "phone"
+      }
+    ]
+  },
+  "campaigns": {
+    "headers": [
+      "id",
+      "description",
+      "channel"
+    ],
+    "data": [
+      {
+        "id": "3424-3553",
+        "description": "Motor Product Campaign",
+        "channel": "post"
+      },
+      {
+        "id": "3424-3553",
+        "description": "Life Insurance Campaign",
+        "channel": "mail"
+      },
+      {
+        "id": "3424-3553",
+        "description": "Health insurance Campaign",
+        "channel": "post"
+      }
+    ]
+  },
+  "quotations": {
+    "headers": [
+      "id",
+      "policy number",
+      "role"
+    ],
+    "data": [
+      {
+        "id": "1223222",
+        "policyNumber": "AZ816233",
+        "role": "policy holder"
+      }
+    ]
+  },
+  "insights": {
+    "insuranceHolding": {
+      "type": "donutChart",
+      "label": "Insurance Summary",
+      "labelx": [
+        "Housing",
+        "Vehicle",
+        "Life"
+      ],
+      "valuey": [
+        3,
+        1,
+        6
+      ]
+    },
+    "customerSegmentation": {
+      "type": "stackedBarChart",
+      "label": "Customer Segmentation",
+      "labelx": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Green",
+        "Purple",
+        "Orange"
+      ],
+      "valuey": [
+        280,
+        480,
+        400,
+        190,
+        960,
+        270
+      ],
+      "valuez": [
+        100,
+        109,
+        30,
+        50,
+        20,
+        30
+      ]
+    },
+    "annualPremium": {
+      "type": "lineChart",
+      "label": "Annual Premium",
+      "labelx": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "valuey": [
+        650,
+        666,
+        900,
+        870,
+        1025,
+        1005,
+        1025,
+        1000,
+        1500,
+        1600
+      ]
+    },
+    "radarChart": {
+      "type": "radarChart",
+      "label": "personal radarChart",
+      "labelx": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "valuey": [
+        120,
+        130,
+        180,
+        70,
+        34
+      ],
+      "valuez": [
+        90,
+        150,
+        200,
+        45,
+        180
+      ]
+    },
+    "annualPremium2": {
+      "type": "lineChart",
+      "label": "Annual Premium",
+      "labelx": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019"
+      ],
+      "valuey": [
+        650,
+        666,
+        900,
+        870,
+        1025,
+        1005,
+        1025,
+        1000,
+        1500,
+        1600
+      ]
+    },
+    "radarChart2": {
+      "type": "radarChart",
+      "label": "personal radarChart",
+      "labelx": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "valuey": [
+        120,
+        130,
+        180,
+        70,
+        34
+      ],
+      "valuez": [
+        90,
+        150,
+        200,
+        45,
+        180
+      ]
+    }
+  }
+}
