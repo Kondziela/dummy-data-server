@@ -1,0 +1,49 @@
+{
+  "kpiList": [
+    {
+      "label":"Claims",
+      "children":[
+        {
+          "label":"Claims Rejected",
+          "id":"RejectionRatio",
+          "query":{
+            "a":"1.1"
+          }
+        },
+        {
+          "label":"Claims Reported",
+          "id":"ReportedWithin24h",
+          "query":{
+            "a":"1.2"
+          }
+        },
+        {
+          "label":"Structured FNOL",
+          "id":"StructuredFNOL",
+          "query":{
+            "a":"1.3"
+          }
+        }
+      ]
+    },
+    {
+      "label":"Customers",
+      "children":[
+        {
+          "label":"Digital Customers",
+          "id":"Digital Customers",
+          "query":{
+            "a":"2.1"
+          }
+        },
+        {
+          "label":"Customer Mobile Number",
+          "id":"Customer Mobile Number",
+          "query":{
+            "a":"2.2"
+          }
+        }
+      ]
+    }
+  ]
+}
