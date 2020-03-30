@@ -29,6 +29,8 @@ server.use('/interactions', jsonServer.router('dummy_data/data/interactions.json
 server.use('/insurance', jsonServer.router('dummy_data/data/insurance.json'))
 server.use('/dashboard', jsonServer.router('dummy_data/data/dashboard.json'))
 server.use('/kpi_report', jsonServer.router('dummy_data/data/kpi_report.json'))
+server.use('/kpi', jsonServer.router('dummy_data/data/kpi_dummy.json'))
+
 
 // routing for dummy data from JSON files
 fs.readFile(path.join('dummy_data', 'restpoint_def.json'), (err, data) => {
