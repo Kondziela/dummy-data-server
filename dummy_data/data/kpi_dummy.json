@@ -1716,6 +1716,7 @@
       "type": "stackedBarChart",
       "id": "totalOverTime",
       "label": "Total Over Time",
+      "show": true,
       "tableSlice": {
         "rows": [
           {
@@ -1738,6 +1739,7 @@
       "type": "donutChart",
       "id": "gwpByCategory",
       "label": "GWP By Category",
+      "show": false,
       "tableSlice": {
         "rows": [
           {
@@ -1768,6 +1770,7 @@
       "type": "donutChart",
       "id": "policyByCategory",
       "label": "Policy By Category",
+      "show": true,
       "tableSlice": {
         "rows": [
           {
@@ -1798,6 +1801,7 @@
       "type": "donutChart",
       "id": "policyByCategory2",
       "label": "Policy By Category 2",
+      "show": true,
       "tableSlice": {
         "rows": [
           {
