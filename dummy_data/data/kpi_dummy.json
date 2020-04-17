@@ -1,5 +1,1413 @@
 {
-  "kpi_data": [
+  "gwpList": [
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Replacement",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 192049.9199999999
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Cancellation",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 239974.59000000003
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "New Business",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 420182.4500000004
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "New Business",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 55514.65999999998
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "New Business",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 32621.52000000002
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Renewal",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 313935.14000000036
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Renewal",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 128662.6
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Renewal",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 80500.23
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Replacement",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 227058.1999999999
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Replacement",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 120539.5599999999
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Replacement",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 90412.83000000002
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Cancellation",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 247940.13000000012
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Cancellation",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 134166.9500000001
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Cancellation",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 104412.30999999998
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "New Business",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 251897.9200000002
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "New Business",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 159659.62000000026
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Renewal",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2018",
+      "value": 194444.17999999988
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "New Business",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 94062.05999999994
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Renewal",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 119732.74999999994
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Renewal",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 211339.03000000023
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Replacement",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 325361.5599999998
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "New Business",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 280754.2500000003
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Replacement",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 158235.24999999985
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Renewal",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 178120.44000000012
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Renewal",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 80611.61
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "New Business",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 59897.09999999997
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Replacement",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 216031.72
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Renewal",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 109684.19999999997
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Replacement",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 81933.12999999998
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Renewal",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 107278.66999999993
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Replacement",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 122557.84000000008
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Renewal",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 50302.10999999999
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "New Business",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 169313.6200000001
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Replacement",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 128179.11999999998
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Renewal",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 72456.43000000004
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "New Business",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 37828.429999999986
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Replacement",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 62604.270000000026
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Replacement",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 84087.60999999999
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "New Business",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 106964.78000000006
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Cancellation",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 430184.05000000034
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Cancellation",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 148840.96000000008
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Cancellation",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 273838.7299999997
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Cancellation",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 84874.68999999994
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Cancellation",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 150041.77000000005
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Cancellation",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 to date 2019",
+      "value": 190556.54000000007
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Cancellation",
+      "startDate": "2017-12-31T23:00:00.000Z",
+      "endDate": "2018-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2018",
+      "value": 65065.53999999997
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Cancellation",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 117865.60000000006
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "New Business",
+      "startDate": "2018-12-31T23:00:00.000Z",
+      "endDate": "2019-02-27T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month 2019",
+      "value": 23358.59000000001
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Replacement",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 134861.2799999999
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Replacement",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 212125.18999999977
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Replacement",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 78743.20999999996
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Replacement",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 125711.68000000002
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Replacement",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 54215.17000000002
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Replacement",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 81762.80999999997
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Cancellation",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 157852.98999999993
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Cancellation",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 290029.3100000001
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Cancellation",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 93788.84000000004
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Cancellation",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 157513.8000000001
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Cancellation",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 64006.82999999997
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Cancellation",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 128178.38000000006
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "New Business",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 257528.1299999996
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "New Business",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 53994.74999999999
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "New Business",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 148467.36999999994
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "New Business",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 32364.35
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "New Business",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 102827.83000000007
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "New Business",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 18763.25
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Renewal",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 131171.5399999999
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Health",
+      "segment": "Renewal",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 197465.63999999984
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Renewal",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 81804.99000000003
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "Life",
+      "segment": "Renewal",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 123273.01000000002
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Renewal",
+      "startDate": "2018-01-31T23:00:00.000Z",
+      "endDate": "2018-03-30T22:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2018",
+      "value": 58029.38000000003
+    },
+    {
+      "kpitype": "GWP",
+      "lineOfBusiness": "P&C",
+      "segment": "Renewal",
+      "startDate": "2019-01-31T23:00:00.000Z",
+      "endDate": "2019-03-30T23:00:00.000Z",
+      "timePeriod": "Acc. 1.1 month to date 2019",
+      "value": 68690.21000000004
+    }
+  ],
+  "claimList": [
+    {
+      "country": "Germany",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1375.2624912384954
+    },
+    {
+      "country": "Germany",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1418.9632816645849
+    },
+    {
+      "country": "Germany",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1653.4160459307627
+    },
+    {
+      "country": "Germany",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1884.3909011767473
+    },
+    {
+      "country": "Germany",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1131.8858717064059
+    },
+    {
+      "country": "Germany",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1667.6665950795168
+    },
+    {
+      "country": "Germany",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1114.5625813825145
+    },
+    {
+      "country": "Germany",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1978.4880229399691
+    },
+    {
+      "country": "Germany",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1229.0366422080692
+    },
+    {
+      "country": "Germany",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1768.288070812928
+    },
+    {
+      "country": "Germany",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1308.7780056979195
+    },
+    {
+      "country": "Germany",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1474.1831938645714
+    },
+    {
+      "country": "Germany",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1948.2037156454494
+    },
+    {
+      "country": "Germany",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1464.3096915794863
+    },
+    {
+      "country": "Germany",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1777.0999357774824
+    },
+    {
+      "country": "Germany",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1298.217067763674
+    },
+    {
+      "country": "Germany",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1170.019554966358
+    },
+    {
+      "country": "Germany",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1158.6034019315575
+    },
+    {
+      "country": "Germany",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1950.0747994188312
+    },
+    {
+      "country": "Germany",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1980.794302607148
+    },
+    {
+      "country": "Germany",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1674.6167429931756
+    },
+    {
+      "country": "Germany",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1014.3242278995003
+    },
+    {
+      "country": "Germany",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1262.6549105253935
+    },
+    {
+      "country": "Germany",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1731.533825202633
+    },
+    {
+      "country": "Germany",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1704.9870766132533
+    },
+    {
+      "country": "Germany",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1647.338902163487
+    },
+    {
+      "country": "Germany",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1485.3447683655752
+    },
+    {
+      "country": "UK",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1102.5583307469315
+    },
+    {
+      "country": "UK",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1332.8313471469723
+    },
+    {
+      "country": "UK",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1313.093504109372
+    },
+    {
+      "country": "UK",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1536.3620004964328
+    },
+    {
+      "country": "UK",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1190.4045334301443
+    },
+    {
+      "country": "UK",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1075.3186186846613
+    },
+    {
+      "country": "UK",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1536.1894812126452
+    },
+    {
+      "country": "UK",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1427.2601591569282
+    },
+    {
+      "country": "UK",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1548.4249997878178
+    },
+    {
+      "country": "UK",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1630.9997409103419
+    },
+    {
+      "country": "UK",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1070.014833550321
+    },
+    {
+      "country": "UK",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1448.2934449967004
+    },
+    {
+      "country": "UK",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1191.3348217421956
+    },
+    {
+      "country": "UK",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1934.6035950903604
+    },
+    {
+      "country": "UK",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1670.727006202058
+    },
+    {
+      "country": "UK",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1090.9710946165055
+    },
+    {
+      "country": "UK",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1355.124511142998
+    },
+    {
+      "country": "UK",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1891.850904763781
+    },
+    {
+      "country": "UK",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1444.413189861265
+    },
+    {
+      "country": "UK",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1763.0484023635668
+    },
+    {
+      "country": "UK",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1300.231461744965
+    },
+    {
+      "country": "UK",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1053.5020226214542
+    },
+    {
+      "country": "UK",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1649.822370643762
+    },
+    {
+      "country": "UK",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1418.9525788769486
+    },
+    {
+      "country": "UK",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1389.5026903443895
+    },
+    {
+      "country": "UK",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1343.2126772891586
+    },
+    {
+      "country": "UK",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1308.1000277834116
+    },
+    {
+      "country": "Poland",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1748.9593686645817
+    },
+    {
+      "country": "Poland",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1166.9563977237224
+    },
+    {
+      "country": "Poland",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1588.7961943006558
+    },
+    {
+      "country": "Poland",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1339.912659822291
+    },
+    {
+      "country": "Poland",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1829.0974620778204
+    },
+    {
+      "country": "Poland",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1387.172437005174
+    },
+    {
+      "country": "Poland",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1545.6712256952471
+    },
+    {
+      "country": "Poland",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1617.430274510929
+    },
+    {
+      "country": "Poland",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1151.5847773813734
+    },
+    {
+      "country": "Poland",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1964.1996250665659
+    },
+    {
+      "country": "Poland",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1787.5888346518368
+    },
+    {
+      "country": "Poland",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1754.5478302166816
+    },
+    {
+      "country": "Poland",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1091.1674078166036
+    },
+    {
+      "country": "Poland",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1078.7995775253066
+    },
+    {
+      "country": "Poland",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1775.5133016690863
+    },
+    {
+      "country": "Poland",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1525.2357348949774
+    },
+    {
+      "country": "Poland",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1630.0678399060687
+    },
+    {
+      "country": "Poland",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1142.8141226179134
+    },
+    {
+      "country": "Poland",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1008.815227918505
+    },
+    {
+      "country": "Poland",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1543.7371365515664
+    },
+    {
+      "country": "Poland",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1250.901910915657
+    },
+    {
+      "country": "Poland",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1791.6052794996706
+    },
+    {
+      "country": "Poland",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1493.038647471447
+    },
+    {
+      "country": "Poland",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1573.5424883675075
+    },
+    {
+      "country": "Poland",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1577.2320619844986
+    },
+    {
+      "country": "Poland",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1177.072486559014
+    },
+    {
+      "country": "Poland",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1496.6457568810954
+    },
+    {
+      "country": "Spain",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1056.0183812707473
+    },
+    {
+      "country": "Spain",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1456.5436793474473
+    },
+    {
+      "country": "Spain",
+      "area": "Medical claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1261.5225568778565
+    },
+    {
+      "country": "Spain",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1609.5524671254652
+    },
+    {
+      "country": "Spain",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1732.667640893827
+    },
+    {
+      "country": "Spain",
+      "area": "Medical claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1568.1464019983437
+    },
+    {
+      "country": "Spain",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1499.4049499909277
+    },
+    {
+      "country": "Spain",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1646.288667282436
+    },
+    {
+      "country": "Spain",
+      "area": "Medical claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1716.3527540832279
+    },
+    {
+      "country": "Spain",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1624.4983166524132
+    },
+    {
+      "country": "Spain",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1038.7154951569037
+    },
+    {
+      "country": "Spain",
+      "area": "Accident claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1738.1533163413753
+    },
+    {
+      "country": "Spain",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1347.1188342794985
+    },
+    {
+      "country": "Spain",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1280.2654884956178
+    },
+    {
+      "country": "Spain",
+      "area": "Accident claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1666.4659044972
+    },
+    {
+      "country": "Spain",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1516.1298957522802
+    },
+    {
+      "country": "Spain",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1713.6533403520352
+    },
+    {
+      "country": "Spain",
+      "area": "Accident claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1515.5419460208261
+    },
+    {
+      "country": "Spain",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Internet",
+      "numberOfClaims": 1758.4356169994924
+    },
+    {
+      "country": "Spain",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1911.0744963035654
+    },
+    {
+      "country": "Spain",
+      "area": "Natural catastrophe claim",
+      "applicant": "Person",
+      "reportWay": "Letter",
+      "numberOfClaims": 1844.8299408902317
+    },
+    {
+      "country": "Spain",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Internet",
+      "numberOfClaims": 1262.3455189500223
+    },
+    {
+      "country": "Spain",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1651.4514958769753
+    },
+    {
+      "country": "Spain",
+      "area": "Natural catastrophe claim",
+      "applicant": "Company",
+      "reportWay": "Letter",
+      "numberOfClaims": 1749.2983741449498
+    },
+    {
+      "country": "Spain",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Internet",
+      "numberOfClaims": 1830.9546414541137
+    },
+    {
+      "country": "Spain",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Visit in office",
+      "numberOfClaims": 1841.1137162842604
+    },
+    {
+      "country": "Spain",
+      "area": "Natural catastrophe claim",
+      "applicant": "Group",
+      "reportWay": "Letter",
+      "numberOfClaims": 1312.2502200679742
+    }
+  ],
+  "reportList": [
     {
       "kpitype": "Policy",
       "lineOfBusiness": "Health",
@@ -44,15 +1452,6 @@
       "endDate": "2018-03-30T22:00:00.000Z",
       "timePeriod": "Acc. 1.1 to date 2018",
       "value": 447
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Replacement",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 192049.9199999999
     },
     {
       "kpitype": "Policy",
@@ -127,15 +1526,6 @@
       "value": 467
     },
     {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Cancellation",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 239974.59000000003
-    },
-    {
       "kpitype": "Policy",
       "lineOfBusiness": "P&C",
       "segment": "Cancellation",
@@ -179,15 +1569,6 @@
       "endDate": "2018-03-30T22:00:00.000Z",
       "timePeriod": "Acc. 1.1 month to date 2018",
       "value": 878
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 420182.4500000004
     },
     {
       "kpitype": "Policy",
@@ -238,46 +1619,10 @@
       "kpitype": "Policy",
       "lineOfBusiness": "Life",
       "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-02-27T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 10
-    },
-    {
-      "kpitype": "Policy",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2020-01-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 8
-    },
-    {
-      "kpitype": "Policy",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 14
-    },
-    {
-      "kpitype": "Policy",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
       "startDate": "2017-12-31T23:00:00.000Z",
       "endDate": "2018-02-27T23:00:00.000Z",
       "timePeriod": "Acc. 1.1 month 2018",
       "value": 554
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 55514.65999999998
     },
     {
       "kpitype": "Policy",
@@ -301,33 +1646,6 @@
       "kpitype": "Policy",
       "lineOfBusiness": "P&C",
       "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-02-27T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 10
-    },
-    {
-      "kpitype": "Policy",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2020-01-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 15
-    },
-    {
-      "kpitype": "Policy",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 18
-    },
-    {
-      "kpitype": "Policy",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
       "startDate": "2017-12-31T23:00:00.000Z",
       "endDate": "2018-02-27T23:00:00.000Z",
       "timePeriod": "Acc. 1.1 month 2018",
@@ -341,15 +1659,6 @@
       "endDate": "2018-03-30T22:00:00.000Z",
       "timePeriod": "Acc. 1.1 month to date 2018",
       "value": 381
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 32621.52000000002
     },
     {
       "kpitype": "Policy",
@@ -377,15 +1686,6 @@
       "endDate": "2018-03-30T22:00:00.000Z",
       "timePeriod": "Acc. 1.1 month to date 2018",
       "value": 433
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Renewal",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 313935.14000000036
     },
     {
       "kpitype": "Policy",
@@ -503,15 +1803,6 @@
       "endDate": "2018-02-27T23:00:00.000Z",
       "timePeriod": "Acc. 1.1 month 2018",
       "value": 275
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Renewal",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 128662.6
     },
     {
       "kpitype": "Policy",
@@ -640,15 +1931,6 @@
       "value": 178
     },
     {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Renewal",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 80500.23
-    },
-    {
       "kpitype": "Policy",
       "lineOfBusiness": "P&C",
       "segment": "Replacement",
@@ -751,33 +2033,6 @@
       "kpitype": "Policy",
       "lineOfBusiness": "Health",
       "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-02-27T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 18
-    },
-    {
-      "kpitype": "Policy",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2020-01-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 11
-    },
-    {
-      "kpitype": "Policy",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 21
-    },
-    {
-      "kpitype": "Policy",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
       "startDate": "2017-12-31T23:00:00.000Z",
       "endDate": "2018-02-27T23:00:00.000Z",
       "timePeriod": "Acc. 1.1 month 2018",
@@ -800,915 +2055,20 @@
       "endDate": "2019-03-30T23:00:00.000Z",
       "timePeriod": "Acc. 1.1 month to date 2019",
       "value": 106
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Replacement",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 227058.1999999999
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Replacement",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 120539.5599999999
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Replacement",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 90412.83000000002
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Cancellation",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 247940.13000000012
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Cancellation",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 134166.9500000001
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Cancellation",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 104412.30999999998
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 1000
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 251897.9200000002
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 159659.62000000026
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Renewal",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2018",
-      "value": 194444.17999999988
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 94062.05999999994
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Renewal",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 119732.74999999994
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Renewal",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 69296.85000000003
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Renewal",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 211339.03000000023
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 4531.46
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Replacement",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 325361.5599999998
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Renewal",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 97562.76999999996
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 280754.2500000003
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Replacement",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 158235.24999999985
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Renewal",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 178120.44000000012
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 132334.71999999994
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Replacement",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 64695.78999999997
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Renewal",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 80611.61
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 59897.09999999997
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Replacement",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 216031.72
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Renewal",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 44673.72000000002
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Replacement",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 103377.93999999996
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Renewal",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 109684.19999999997
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Replacement",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 81933.12999999998
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 33855.23
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Renewal",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 62064.60999999999
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Replacement",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 36631.82999999999
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-02-27T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 3876.1699999999987
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Renewal",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 107278.66999999993
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Replacement",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 122557.84000000008
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 3972.17
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Renewal",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 50302.10999999999
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Replacement",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 64648.05999999997
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 169313.6200000001
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Renewal",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 28745.24999999998
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 79256.33000000006
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Replacement",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 128179.11999999998
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Renewal",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 72456.43000000004
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 37828.429999999986
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Renewal",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 32398.250000000004
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Replacement",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 62604.270000000026
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 16528.48
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Replacement",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 27165.209999999992
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Replacement",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 84087.60999999999
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 4256.87
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Replacement",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 39227.52
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 106964.78000000006
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Cancellation",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 430184.05000000034
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Cancellation",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 148840.96000000008
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Cancellation",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 96631.25999999998
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Cancellation",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 273838.7299999997
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Cancellation",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 149497.06999999992
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Cancellation",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 84874.68999999994
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Cancellation",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 47971.64000000002
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Cancellation",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 150041.77000000005
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Cancellation",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 88986.68
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Cancellation",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 to date 2019",
-      "value": 190556.54000000007
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Cancellation",
-      "startDate": "2017-12-31T23:00:00.000Z",
-      "endDate": "2018-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2018",
-      "value": 65065.53999999997
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Cancellation",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 37970.49
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Cancellation",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 117865.60000000006
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Cancellation",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 67241.68
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2018-02-28T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 50921.95999999999
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2018-12-31T23:00:00.000Z",
-      "endDate": "2019-02-27T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month 2019",
-      "value": 23358.59000000001
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2019-02-28T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 9129.48
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-02-27T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 2592.74
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Replacement",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 134861.2799999999
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Replacement",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 212125.18999999977
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Replacement",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 78743.20999999996
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Replacement",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 125711.68000000002
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Replacement",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 54215.17000000002
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Replacement",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 81762.80999999997
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Cancellation",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 157852.98999999993
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Cancellation",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 290029.3100000001
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Cancellation",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 93788.84000000004
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Cancellation",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 157513.8000000001
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Cancellation",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 64006.82999999997
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Cancellation",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 128178.38000000006
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2020-02-29T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 591.45
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 257528.1299999996
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 53994.74999999999
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "New Business",
-      "startDate": "2020-01-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 2358.76
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2019-12-31T23:00:00.000Z",
-      "endDate": "2020-02-27T23:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 2810.610000000001
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2020-02-29T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 1161.56
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 148467.36999999994
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 32364.35
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "New Business",
-      "startDate": "2020-01-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 2491.03
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2020-02-29T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 1390.28
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 102827.83000000007
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 18763.25
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "New Business",
-      "startDate": "2020-01-31T23:00:00.000Z",
-      "endDate": "2020-03-30T22:00:00.000Z",
-      "timePeriod": "Rest of dates",
-      "value": 3344.5
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Renewal",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 131171.5399999999
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Health",
-      "segment": "Renewal",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 197465.63999999984
-    },
-    {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Renewal",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 81804.99000000003
-    },
+    }
+  ],
+  "dataSources": [
     {
-      "kpitype": "GWP",
-      "lineOfBusiness": "Life",
-      "segment": "Renewal",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 123273.01000000002
+      "name": "GWP Report",
+      "url": "http://localhost:3000/kpi/gwpList"
     },
     {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Renewal",
-      "startDate": "2018-01-31T23:00:00.000Z",
-      "endDate": "2018-03-30T22:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2018",
-      "value": 58029.38000000003
+      "name": "Claim Count",
+      "url": "http://localhost:3000/kpi/claimList"
     },
     {
-      "kpitype": "GWP",
-      "lineOfBusiness": "P&C",
-      "segment": "Renewal",
-      "startDate": "2019-01-31T23:00:00.000Z",
-      "endDate": "2019-03-30T23:00:00.000Z",
-      "timePeriod": "Acc. 1.1 month to date 2019",
-      "value": 68690.21000000004
+      "name": "Report Count",
+      "url": "http://localhost:3000/kpi/reportList"
     }
   ],
   "slice_data": [
@@ -1716,7 +2076,8 @@
       "type": "stackedBarChart",
       "id": "totalOverTime",
       "label": "Total Over Time",
-      "show": true,
+      "show": false,
+      "dataSource": "GWP Report",
       "tableSlice": {
         "rows": [
           {
@@ -1739,6 +2100,7 @@
       "type": "donutChart",
       "id": "gwpByCategory",
       "label": "GWP By Category",
+      "dataSource": "GWP Report",
       "show": false,
       "tableSlice": {
         "rows": [
@@ -1770,7 +2132,8 @@
       "type": "donutChart",
       "id": "policyByCategory",
       "label": "Policy By Category",
-      "show": true,
+      "dataSource": "GWP Report",
+      "show": false,
       "tableSlice": {
         "rows": [
           {
@@ -1801,7 +2164,8 @@
       "type": "donutChart",
       "id": "policyByCategory2",
       "label": "Policy By Category 2",
-      "show": true,
+      "dataSource": "GWP Report",
+      "show": false,
       "tableSlice": {
         "rows": [
           {
@@ -1827,6 +2191,160 @@
           }
         ]
       }
+    },
+    {
+      "id": "e8628d64-98a9-4adb-b746-5f3626c3ecee",
+      "label": "This is chart",
+      "type": "donutChart",
+      "dataSource": "GWP Report",
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "[Measures]"
+          },
+          {
+            "uniqueName": "timePeriod"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "segment"
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "value"
+          }
+        ]
+      },
+      "show": false
+    },
+    {
+      "id": "58c23bdc-1f84-4654-b7e8-524a80ec7c83",
+      "label": "Chart with filters",
+      "type": "lineChart",
+      "dataSource": "GWP Report",
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "kpitype",
+            "filter": {
+              "members": [
+                "kpitype.[GWP]"
+              ]
+            }
+          },
+          {
+            "uniqueName": "timePeriod",
+            "filter": {
+              "members": [
+                "timePeriod.[Acc. 1.1 to date 2018]",
+                "timePeriod.[Acc. 1.1 month to date 2018]"
+              ]
+            }
+          },
+          {
+            "uniqueName": "[Measures]"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "segment",
+            "filter": {
+              "members": [
+                "segment.[Replacement]",
+                "segment.[Cancellation]",
+                "segment.[Renewal]"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "value"
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "id": "b5f1a5c0-675b-420b-87b3-3c70fa33d577",
+      "label": "Donut",
+      "type": "donutChart",
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "applicant",
+            "filter": {
+              "members": [
+                "applicant.[Person]",
+                "applicant.[Company]"
+              ]
+            }
+          },
+          {
+            "uniqueName": "[Measures]"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "country",
+            "filter": {
+              "members": [
+                "country.[Germany]",
+                "country.[UK]"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "numberOfClaims"
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "id": "80992224-842e-48cd-8143-212c4ef0fd33",
+      "label": "Claims in Countries",
+      "type": "donutChart",
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "applicant",
+            "filter": {
+              "members": [
+                "applicant.[Person]",
+                "applicant.[Company]",
+                "applicant.[Group]"
+              ]
+            }
+          },
+          {
+            "uniqueName": "[Measures]"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "country",
+            "filter": {
+              "members": [
+                "country.[Germany]",
+                "country.[UK]",
+                "country.[Poland]"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "numberOfClaims"
+          }
+        ]
+      },
+      "show": true,
+      "dataSource": "Claim Count"
     }
   ]
 }
