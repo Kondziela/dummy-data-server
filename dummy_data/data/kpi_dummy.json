@@ -2105,10 +2105,10 @@
       "tableSlice": {
         "rows": [
           {
-            "uniqueName": "kpiType",
+            "uniqueName": "kpitype",
             "filter": {
               "members": [
-                "kpiType.[gwp]"
+                "kpitype.[gwp]"
               ]
             }
           },
@@ -2137,10 +2137,10 @@
       "tableSlice": {
         "rows": [
           {
-            "uniqueName": "kpiType",
+            "uniqueName": "kpitype",
             "filter": {
               "members": [
-                "kpiType.[policy]"
+                "kpitype.[policy]"
               ]
             }
           },
@@ -2169,10 +2169,10 @@
       "tableSlice": {
         "rows": [
           {
-            "uniqueName": "kpiType",
+            "uniqueName": "kpitype",
             "filter": {
               "members": [
-                "kpiType.[policy]"
+                "kpitype.[policy]"
               ]
             }
           },
