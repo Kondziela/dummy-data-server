@@ -2076,8 +2076,8 @@
       "type": "stackedBarChart",
       "id": "totalOverTime",
       "label": "Total Over Time",
-      "show": false,
-      "dataSource": "GWP Report",
+      "show": true,
+      "dataSource": "index_database",
       "tableSlice": {
         "rows": [
           {
@@ -2100,251 +2100,33 @@
       "type": "donutChart",
       "id": "gwpByCategory",
       "label": "GWP By Category",
-      "dataSource": "GWP Report",
-      "show": false,
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "kpitype",
-            "filter": {
-              "members": [
-                "kpitype.[gwp]"
-              ]
-            }
-          },
-          {
-            "uniqueName": "[Measures]"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "segment"
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "value"
-          }
-        ]
-      }
-    },
-    {
-      "type": "donutChart",
-      "id": "policyByCategory",
-      "label": "Policy By Category",
-      "dataSource": "GWP Report",
-      "show": false,
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "kpitype",
-            "filter": {
-              "members": [
-                "kpitype.[policy]"
-              ]
-            }
-          },
-          {
-            "uniqueName": "[Measures]"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "segment"
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "value"
-          }
-        ]
-      }
-    },
-    {
-      "type": "donutChart",
-      "id": "policyByCategory2",
-      "label": "Policy By Category 2",
-      "dataSource": "GWP Report",
-      "show": false,
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "kpitype",
-            "filter": {
-              "members": [
-                "kpitype.[policy]"
-              ]
-            }
-          },
-          {
-            "uniqueName": "[Measures]"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "segment"
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "value"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e8628d64-98a9-4adb-b746-5f3626c3ecee",
-      "label": "This is chart",
-      "type": "donutChart",
-      "dataSource": "GWP Report",
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "[Measures]"
-          },
-          {
-            "uniqueName": "timePeriod"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "segment"
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "value"
-          }
-        ]
-      },
-      "show": false
-    },
-    {
-      "id": "58c23bdc-1f84-4654-b7e8-524a80ec7c83",
-      "label": "Chart with filters",
-      "type": "lineChart",
-      "dataSource": "GWP Report",
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "kpitype",
-            "filter": {
-              "members": [
-                "kpitype.[GWP]"
-              ]
-            }
-          },
-          {
-            "uniqueName": "timePeriod",
-            "filter": {
-              "members": [
-                "timePeriod.[Acc. 1.1 to date 2018]",
-                "timePeriod.[Acc. 1.1 month to date 2018]"
-              ]
-            }
-          },
-          {
-            "uniqueName": "[Measures]"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "segment",
-            "filter": {
-              "members": [
-                "segment.[Replacement]",
-                "segment.[Cancellation]",
-                "segment.[Renewal]"
-              ]
-            }
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "value"
-          }
-        ]
-      },
-      "show": true
-    },
-    {
-      "id": "b5f1a5c0-675b-420b-87b3-3c70fa33d577",
-      "label": "Donut",
-      "type": "donutChart",
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "applicant",
-            "filter": {
-              "members": [
-                "applicant.[Person]",
-                "applicant.[Company]"
-              ]
-            }
-          },
-          {
-            "uniqueName": "[Measures]"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "country",
-            "filter": {
-              "members": [
-                "country.[Germany]",
-                "country.[UK]"
-              ]
-            }
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "numberOfClaims"
-          }
-        ]
-      },
-      "show": true
-    },
-    {
-      "id": "80992224-842e-48cd-8143-212c4ef0fd33",
-      "label": "Claims in Countries",
-      "type": "donutChart",
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "applicant",
-            "filter": {
-              "members": [
-                "applicant.[Person]",
-                "applicant.[Company]",
-                "applicant.[Group]"
-              ]
-            }
-          },
-          {
-            "uniqueName": "[Measures]"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "country",
-            "filter": {
-              "members": [
-                "country.[Germany]",
-                "country.[UK]",
-                "country.[Poland]"
-              ]
-            }
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "numberOfClaims"
-          }
-        ]
-      },
+      "dataSource": "index_database",
       "show": true,
-      "dataSource": "Claim Count"
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "kpitype",
+            "filter": {
+              "members": [
+                "gwp"
+              ]
+            }
+          },
+          {
+            "uniqueName": "[Measures]"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "segment"
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "value"
+          }
+        ]
+      }
     }
   ]
 }
