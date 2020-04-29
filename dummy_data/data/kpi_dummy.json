@@ -2059,16 +2059,12 @@
   ],
   "dataSources": [
     {
-      "name": "GWP Report",
-      "url": "http://localhost:3000/kpi/gwpList"
+      "name": "Midcorp Report",
+      "url": "index_database"
     },
     {
-      "name": "Claim Count",
-      "url": "http://localhost:3000/kpi/claimList"
-    },
-    {
-      "name": "Report Count",
-      "url": "http://localhost:3000/kpi/reportList"
+      "name": "Country Data",
+      "url": "policy_country"
     }
   ],
   "slice_data": [
