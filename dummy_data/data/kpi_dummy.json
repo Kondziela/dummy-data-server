@@ -2071,43 +2071,6 @@
   ],
   "slice_data": [
     {
-      "id": "totalOverTime",
-      "label": "Total Over Time",
-      "type": "stackedBarChart",
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "[Measures]"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "timePeriod",
-            "filter": {
-              "members": [
-                "timePeriod.[Acc. 1.1 to date 2019]",
-                "timePeriod.[Acc. 1.1 to date 2018]",
-                "timePeriod.[Acc. 1.1 month 2018]",
-                "timePeriod.[Acc. 1.1 month 2019]",
-                "timePeriod.[Acc. 1.1 month to date 2018]"
-              ]
-            }
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "value"
-          }
-        ]
-      },
-      "show": true,
-      "dataSource": {
-        "name": "GWP Report",
-        "key": "gwpList",
-        "url": "http://localhost:3000/kpi/gwpList"
-      }
-    },
-    {
       "id": "gwpByCategory",
       "label": "GWP By Category",
       "type": "donutChart",
