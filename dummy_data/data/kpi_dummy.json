@@ -2059,25 +2059,21 @@
   ],
   "dataSources": [
     {
-      "name": "GWP Report",
-      "url": "http://localhost:3000/kpi/gwpList"
+      "name": "Claim View",
+      "key": "claim_view",
+      "url": "claim_view"
     },
     {
-      "name": "Claim Count",
-      "url": "http://localhost:3000/kpi/claimList"
-    },
-    {
-      "name": "Report Count",
-      "url": "http://localhost:3000/kpi/reportList"
+      "name": "Policy View",
+      "key": "policy_view",
+      "url": "policy_view"
     }
   ],
   "slice_data": [
     {
-      "type": "stackedBarChart",
       "id": "totalOverTime",
       "label": "Total Over Time",
-      "show": false,
-      "dataSource": "GWP Report",
+      "type": "stackedBarChart",
       "tableSlice": {
         "rows": [
           {
@@ -2086,7 +2082,16 @@
         ],
         "columns": [
           {
-            "uniqueName": "timePeriod"
+            "uniqueName": "timePeriod",
+            "filter": {
+              "members": [
+                "timePeriod.[Acc. 1.1 to date 2019]",
+                "timePeriod.[Acc. 1.1 to date 2018]",
+                "timePeriod.[Acc. 1.1 month 2018]",
+                "timePeriod.[Acc. 1.1 month 2019]",
+                "timePeriod.[Acc. 1.1 month to date 2018]"
+              ]
+            }
           }
         ],
         "measures": [
@@ -2094,14 +2099,18 @@
             "uniqueName": "value"
           }
         ]
+      },
+      "show": true,
+      "dataSource": {
+        "name": "GWP Report",
+        "key": "gwpList",
+        "url": "http://localhost:3000/kpi/gwpList"
       }
     },
     {
-      "type": "donutChart",
       "id": "gwpByCategory",
       "label": "GWP By Category",
-      "dataSource": "GWP Report",
-      "show": false,
+      "type": "donutChart",
       "tableSlice": {
         "rows": [
           {
@@ -2118,7 +2127,14 @@
         ],
         "columns": [
           {
-            "uniqueName": "segment"
+            "uniqueName": "segment",
+            "filter": {
+              "members": [
+                "segment.[Replacement]",
+                "segment.[Cancellation]",
+                "segment.[New Business]"
+              ]
+            }
           }
         ],
         "measures": [
@@ -2126,14 +2142,16 @@
             "uniqueName": "value"
           }
         ]
-      }
+      },
+      "show": true,
+      "dataSource": "GWP Report"
     },
     {
       "type": "donutChart",
       "id": "policyByCategory",
       "label": "Policy By Category",
       "dataSource": "GWP Report",
-      "show": false,
+      "show": true,
       "tableSlice": {
         "rows": [
           {
@@ -2159,113 +2177,6 @@
           }
         ]
       }
-    },
-    {
-      "type": "donutChart",
-      "id": "policyByCategory2",
-      "label": "Policy By Category 2",
-      "dataSource": "GWP Report",
-      "show": false,
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "kpitype",
-            "filter": {
-              "members": [
-                "kpitype.[policy]"
-              ]
-            }
-          },
-          {
-            "uniqueName": "[Measures]"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "segment"
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "value"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e8628d64-98a9-4adb-b746-5f3626c3ecee",
-      "label": "This is chart",
-      "type": "donutChart",
-      "dataSource": "GWP Report",
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "[Measures]"
-          },
-          {
-            "uniqueName": "timePeriod"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "segment"
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "value"
-          }
-        ]
-      },
-      "show": false
-    },
-    {
-      "id": "58c23bdc-1f84-4654-b7e8-524a80ec7c83",
-      "label": "Chart with filters",
-      "type": "lineChart",
-      "dataSource": "GWP Report",
-      "tableSlice": {
-        "rows": [
-          {
-            "uniqueName": "kpitype",
-            "filter": {
-              "members": [
-                "kpitype.[GWP]"
-              ]
-            }
-          },
-          {
-            "uniqueName": "timePeriod",
-            "filter": {
-              "members": [
-                "timePeriod.[Acc. 1.1 to date 2018]",
-                "timePeriod.[Acc. 1.1 month to date 2018]"
-              ]
-            }
-          },
-          {
-            "uniqueName": "[Measures]"
-          }
-        ],
-        "columns": [
-          {
-            "uniqueName": "segment",
-            "filter": {
-              "members": [
-                "segment.[Replacement]",
-                "segment.[Cancellation]",
-                "segment.[Renewal]"
-              ]
-            }
-          }
-        ],
-        "measures": [
-          {
-            "uniqueName": "value"
-          }
-        ]
-      },
-      "show": true
     },
     {
       "id": "b5f1a5c0-675b-420b-87b3-3c70fa33d577",
@@ -2345,6 +2256,248 @@
       },
       "show": true,
       "dataSource": "Claim Count"
+    },
+    {
+      "id": "805db9ac-4e78-4d31-9bea-defcea6185ee",
+      "label": "Total Time",
+      "type": "lineChart",
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "[Measures]"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "timePeriod",
+            "filter": {
+              "members": [
+                "timePeriod.[Acc. 1.1 to date 2019]",
+                "timePeriod.[Acc. 1.1 to date 2018]",
+                "timePeriod.[Acc. 1.1 month 2018]",
+                "timePeriod.[Acc. 1.1 month 2019]",
+                "timePeriod.[Acc. 1.1 month to date 2018]",
+                "timePeriod.[Acc. 1.1 month to date 2019]"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "value"
+          }
+        ]
+      },
+      "show": true,
+      "dataSource": "GWP Report"
+    },
+    {
+      "id": "4561988e-f8e4-431f-ae73-dbecfef07fb5",
+      "label": "Test2",
+      "type": "lineChart",
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "[Measures]"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "reportWay",
+            "filter": {
+              "members": [
+                "reportWay.[Internet]",
+                "reportWay.[Visit in office]",
+                "reportWay.[Letter]"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "numberOfClaims"
+          }
+        ]
+      },
+      "show": true,
+      "dataSource": "Claim Count"
+    },
+    {
+      "id": "a0273978-1c4a-430f-b0bd-9b78a0cd132b",
+      "label": "NC2",
+      "type": "donutChart",
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "global_business_type",
+            "filter": {
+              "members": [
+                "global_business_type.[N]",
+                "global_business_type.[true]"
+              ]
+            }
+          },
+          {
+            "uniqueName": "[Measures]"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "global_policy_status",
+            "filter": {
+              "members": [
+                "global_policy_status.[1]",
+                "global_policy_status.[2]",
+                "global_policy_status.[3]"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "insurers_gross_ploicy_share"
+          }
+        ]
+      },
+      "show": true,
+      "dataSource": "policy_view"
+    },
+    {
+      "id": "09622f14-8688-4401-b590-f2263b50a1fb",
+      "label": "AZI",
+      "type": "lineChart",
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "az_isic_plus",
+            "filter": {
+              "members": [
+                "az_isic_plus.[011300]",
+                "az_isic_plus.[011600]",
+                "az_isic_plus.[011900]",
+                "az_isic_plus.[062000]",
+                "az_isic_plus.[081000]",
+                "az_isic_plus.[089900]",
+                "az_isic_plus.[103004]",
+                "az_isic_plus.[105001]"
+              ]
+            }
+          },
+          {
+            "uniqueName": "[Measures]"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "az_isic_plus_section",
+            "filter": {
+              "members": [
+                "az_isic_plus_section.[C]",
+                "az_isic_plus_section.[A]",
+                "az_isic_plus_section.[B]"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "insurers_gross_ploicy_share"
+          }
+        ]
+      },
+      "show": true,
+      "dataSource": "policy_view"
+    },
+    {
+      "id": "d64c668f-00eb-43b4-9972-bfa235322e24",
+      "label": "ClaimChart 1",
+      "type": "lineChart",
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "global_loss_category_desc",
+            "filter": {
+              "members": [
+                "global_loss_category_desc.[NAT]",
+                "global_loss_category_desc.[MM]",
+                "global_loss_category_desc.[UKN/OTH]"
+              ]
+            }
+          },
+          {
+            "uniqueName": "[Measures]"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "global_loss_type",
+            "filter": {
+              "members": [
+                "global_loss_type.[NAT]",
+                "global_loss_type.[ATTRITIONAL]",
+                "global_loss_type.[LLOSS]"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "case_reserves_amount"
+          }
+        ]
+      },
+      "show": true,
+      "dataSource": "claim_view"
+    },
+    {
+      "id": "697c08fd-cfdb-441a-9a95-5baf92ba54b9",
+      "label": "New Chart",
+      "type": "stackedBarChart",
+      "tableSlice": {
+        "rows": [
+          {
+            "uniqueName": "global_loss_cause",
+            "filter": {
+              "members": [
+                "global_loss_cause.[N12]",
+                "global_loss_cause.[M3]",
+                "global_loss_cause.[M9]",
+                "global_loss_cause.[M4]",
+                "global_loss_cause.[UKN/OT]",
+                "global_loss_cause.[M1]",
+                "global_loss_cause.[M7]",
+                "global_loss_cause.[N8]",
+                "global_loss_cause.[M12]",
+                "global_loss_cause.[N7]",
+                "global_loss_cause.[N6]",
+                "global_loss_cause.[M2]"
+              ]
+            }
+          },
+          {
+            "uniqueName": "[Measures]"
+          }
+        ],
+        "columns": [
+          {
+            "uniqueName": "global_loss_type",
+            "filter": {
+              "members": [
+                "global_loss_type.[NAT]",
+                "global_loss_type.[ATTRITIONAL]",
+                "global_loss_type.[LLOSS]"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "uniqueName": "total_incurred"
+          }
+        ]
+      },
+      "show": true,
+      "dataSource": "claim_view"
     }
   ]
 }
