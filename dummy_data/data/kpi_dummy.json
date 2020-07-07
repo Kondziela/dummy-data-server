@@ -2,6 +2,7 @@
   "gwpList": [
   ],
   "dataSources": [
+   
     {
       "name": "Belgium Data",
       "key": "belgium_data",
@@ -11,6 +12,16 @@
       "name": "Netherlands Data",
       "key": "netherland_data",
       "url": "netherland_data"
+    },
+    {
+      "name": "Original Data",
+      "key": "original_data",
+      "url": "original_data"
+    },
+    {
+      "name": "Policy Claim",
+      "key": "gd_flat_policy_claim",
+      "url": "gd_flat_policy_claim"
     }
   ],
   "slice_data": [
